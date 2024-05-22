@@ -6,16 +6,16 @@
     background: #ffc300;
     border-radius: 5px;
     color: #003566;
-    box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    animation: changeColor 2s infinite;
   }
 
-  @keyframes changeColor {
+  @keyframes changeBox-shadow {
     from {
-      color: blue;
+      box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
     }
 
     to {
-      color: green;
+      box-shadow: 0px 0px 4px 6px rgba(0, 53, 102, 0.25);
     }
   }
 
